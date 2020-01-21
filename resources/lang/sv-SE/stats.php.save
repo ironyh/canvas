@@ -1,0 +1,44 @@
+<?php
+
+return [
+
+    'header'  => 'Statistik',
+    'subtext' => 'Klicka på inläggen nedan för att se mer detaljerad information.',
+    'empty'   => 'Det finns inga publicerade inlägg att ta frams statistik för.',
+    'views'   => 'Tittar',
+    'chart'   => [
+        'view'  => 'tittar',
+        'views' => 'Tittar (30 dagar)',
+    ],
+    'cards'   => [
+        'views'      => [
+            'title' => 'Tittar (30 dagar)',
+        ],
+        'posts'      => [
+            'title' => 'Totalt antal inlägg',
+        ],
+        'publishing' => [
+            'title'   => 'Publicering',
+            'details' => [
+                'published' => 'Publicerade Inlägg)',
+                'drafts'    => 'Utkast',
+            ],
+        ],
+    ],
+    'details' => [
+        'created'   => 'Skapad',
+        'published' => 'Publicerad på',
+        'views'     => 'Views by traf,
+        'reading'   => [
+            'header' => 'Popular reading times',
+            'time'   => 'min',
+            'read'   => 'read',
+        ],
+        'empty'     => 'Waiting until your post has more views to show these insights.',
+        'referer'   => [
+            'other'   => 'Other',
+            'unknown' => 'Post views in this category could not reliably determine a referrer. e.g. Incognito mode',
+        ],
+    ],
+
+];
